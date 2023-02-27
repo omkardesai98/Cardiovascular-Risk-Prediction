@@ -101,11 +101,20 @@ We have chosen recall as the evaluation metric. Because this is a health-care da
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # **6. Conclusion**
-**We trained 7 machine learning models using the training dataset, and hyperparameter tuning was used in some models to improve the model's performance.
- Missing values were handled, feature engineering and feature selection were carried out, and the training dataset was oversampled using SMOTE to reduce bias on one outcome.
- We chose recall as the model evaluation metric because it was critical that we reduce false negatives.
- Predicting the risk of coronary heart disease is critical for reducing fatalities caused by this illness. We can avert deaths by taking the required medications and precautions if we can foresee the danger of this sickness ahead of time.
-It is critical that the model we develop has a high recall score. It is OK if the model incorrectly identifies a healthy patient as a high risk patient because it will not result in death, but if a high risk patient is incorrectly labelled as healthy, it may result in fatality.6)We were able to create a model with a recall of just 0.81 because of limitated data available and limited computational power available.
- A recall score of 0.81 indicates that out of 100 individuals with the illness, our model will be able to classify only 81 as high risk patients, while the remaining  19 will be misclassified.
-Future developments must include a strategy to improve the model recall score, enabling us to save even more lives from this disease. This includes involving more people in the study, and include people with different medical history, etc. build an application with better recall score.
-From our analysis, it is also found that the age of a person was the most important feature in determining the risk of a patient getting infected with CHD, followed by pulse pressure, prevalent hypertension and total cholesterol.10) Diabetes, prevalent stroke and BP medication were the least important features in determining the risk of CHD.**
+ 1) We trained 7 machine learning models using the training dataset, and hyperparameter tuning was used in some models to improve the model's performance.
+
+2) Missing values were handled, feature engineering and feature selection were carried out, and the training dataset was oversampled using SMOTE to reduce bias on one outcome.
+
+3) We chose recall as the model evaluation metric because it was critical that we reduce false negatives.
+
+4) Predicting the risk of coronary heart disease is critical for reducing fatalities caused by this illness. We can avert deaths by taking the required medications and precautions if we can foresee the danger of this sickness ahead of time.
+
+5) It is critical that the model we develop has a high recall score. It is OK if the model incorrectly identifies a healthy patient as a high risk patient because it will not result in death, but if a high risk patient is incorrectly labelled as healthy, it may result in fatality.We were able to create a model with a recall of just 0.81 because of limitated data available and limited computational power available.
+
+6) A recall score of 0.81 indicates that out of 100 individuals with the illness, our model will be able to classify only 81 as high risk patients, while the remaining  19 will be misclassified.
+
+7) Future developments must include a strategy to improve the model recall score, enabling us to save even more lives from this disease. This includes involving more people in the study, and include people with different medical history, etc. build an application with better recall score.
+
+8) From our analysis, it is also found that the age of a person was the most important feature in determining the risk of a patient getting infected with CHD, followed by pulse pressure, prevalent hypertension and total cholesterol.
+
+9) Diabetes, prevalent stroke and BP medication were the least important features in determining the risk of CHD.**
